@@ -1,0 +1,35 @@
+
+
+<form accept-charset="UTF-8" action="/correntista" class="new_correntistum" id="new_correntistum" method="post">
+
+
+  <h2>Cadastrar Correntista</h2>
+  <div class="field">
+    <label for="correntistum_cpf">CPF</label>
+    <input id="correntistum_cpf" name="correntistum[cpf]" size="30" type="text">
+  </div>
+  <br>
+  <div class="field">
+    <label for="correntistum_nome">Nome</label>
+    <input id="correntistum_nome" name="correntistum[nome]" size="30" type="text">
+  </div>
+  <br>
+  <div class="field">
+    <label for="correntistum_endereco">Endereco</label>
+    <input id="correntistum_endereco" name="correntistum[endereco]" size="30" type="text">
+  </div>
+  <br>
+ <input type="hidden"  name="correntistum[roles]"  value="admin">
+
+  <div><label for="correntistum_email">Email</label>
+    <input autofocus="autofocus" id="correntistum_email" name="correntistum[email]" size="30" type="email"></div>
+  <br>
+  <div><label for="correntistum_password">Password</label>
+    <input id="correntistum_password" name="correntistum[password]" size="30" type="password"></div>
+  <br>
+  <div><label for="correntistum_password_confirmation">Password confirmation</label>
+    <input id="correntistum_password_confirmation" name="correntistum[password_confirmation]" size="30" type="password"></div>
+
+  <br>
+  <div><input name="commit" type="submit" value="Cadastrar"></div>
+</form>

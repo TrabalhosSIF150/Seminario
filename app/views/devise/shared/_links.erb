@@ -1,0 +1,7 @@
+<%- if controller_name == 'sessions' %>
+    <%- if resource_name==:correntistum %>
+  <%= link_to "Logar como Funcionario", "/funcionarios/sign_in" %><br />
+     <%- else %>
+  <%= link_to "Logar como Correntista", "/correntista/sign_in" %><br />
+    <% end -%>
+<% end -%>

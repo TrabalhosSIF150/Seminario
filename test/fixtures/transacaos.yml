@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  codigo: 1
+  tipo: 
+  nro_conta: 1
+  nro_conta_transf: 1
+  valor: 1.5
+  data: 2013-12-10
+
+two:
+  codigo: 1
+  tipo: 
+  nro_conta: 1
+  nro_conta_transf: 1
+  valor: 1.5
+  data: 2013-12-10

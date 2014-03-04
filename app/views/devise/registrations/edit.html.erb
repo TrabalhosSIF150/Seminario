@@ -1,0 +1,48 @@
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    <%= devise_error_messages! %>
+    <%if resource_name ==:correntistum%>
+
+        <h2>Cadastrar Correntista</h2>
+        <div class="field">
+          <%= f.label :cpf %><br />
+          <%= f.text_field :cpf %>
+        </div>
+        <div class="field">
+          <%= f.label :nome %><br />
+          <%= f.text_field :nome %>
+        </div>
+        <div class="field">
+          <%= f.label :endereco %><br />
+          <%= f.text_field :endereco %>
+        </div>
+    <%elsif resource_name==:funcionario%>
+        <h2> Cadastrar Funcionario </h2>
+
+        <div class="field">
+          <%= f.label :codigo %><br />
+          <%= f.text_field :codigo %>
+        </div>
+        <div class="field">
+          <%= f.label :nome %><br />
+          <%= f.text_field :nome %>
+        </div>
+        <div class="field">
+          <%= f.label :funcao %><br />
+          <%= f.text_field :funcao %>
+        </div>
+
+    <% end%>
+
+    <div><%= f.label :email %><br />
+      <%= f.email_field :email, :autofocus => true %></div>
+
+    <div><%= f.label :password %><br />
+      <%= f.password_field :password %></div>
+
+    <div><%= f.label :password_confirmation %><br />
+      <%= f.password_field :password_confirmation %></div>
+
+    <div><%= f.submit "Sign up" %></div>
+<% end %>
+
+<%= render "devise/shared/links" %>

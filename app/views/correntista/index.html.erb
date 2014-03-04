@@ -1,0 +1,33 @@
+<h1 class="text-center">Lista dos Correntistas</h1>
+
+<p>
+  <%= link_to 'Novo Correntista', new_correntistum_path, class:"btn" %>
+</p>
+
+<table class="table table-hover table-condensed">
+  <thead>
+  <tr>
+    <th>CPF</th>
+    <th>Nome</th>
+    <th>Endereco</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+<% @correntista.each do |correntistum| %>
+  <tr>
+    <td><%= correntistum.cpf %></td>
+    <td><%= correntistum.nome %></td>
+    <td><%= correntistum.endereco %></td>
+    <td><%= correntistum.email %></td>
+    <td><%= link_to 'Visualizar', correntistum, class:"btn btn-primary" %></td>
+    <td><%= link_to 'Editar', edit_correntistum_path(correntistum), class:"btn btn-warning" %></td>
+    <td><%= link_to 'Apagar', correntistum, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>

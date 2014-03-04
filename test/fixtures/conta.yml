@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  numero: 1
+  primeiro_corr: MyString
+  segundo_corr: MyString
+  terceiro_corr: MyString
+  limite: 1.5
+
+two:
+  numero: 1
+  primeiro_corr: MyString
+  segundo_corr: MyString
+  terceiro_corr: MyString
+  limite: 1.5

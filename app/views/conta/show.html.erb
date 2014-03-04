@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Numero:</b>
+  <%= @contum.numero %>
+</p>
+
+<p>
+  <b>Primeiro Correntista:</b>
+  <%= @contum.primeiro_corr %>
+</p>
+
+<p>
+  <b>Segundo Correntista:</b>
+  <%= @contum.segundo_corr %>
+</p>
+
+<p>
+  <b>Terceiro Correntista:</b>
+  <%= @contum.terceiro_corr %>
+</p>
+
+<p>
+  <b>Limite:</b>
+  <%= @contum.limite %>
+</p>
+
+
+<%= link_to 'Editar', edit_contum_path(@contum), class:"btn btn-warning" %> |
+<%= link_to 'Voltar', conta_path, class:"btn btn-inverse" %>

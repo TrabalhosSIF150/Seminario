@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homebanking</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container">
+
+  <% if notice %>
+      <p class="alert alert-notice"><%= notice %></p>
+  <% end %>
+  <% if alert %>
+      <p class="alert alert-error"><%= alert %></p>
+      <% end %>
+
+    <% if funcionario_signed_in? %>
+      <p class="navbar-inner text-right">
+        Olá <%= current_funcionario.funcao%> <strong> <%= current_funcionario.nome%></strong>!
+        <%= link_to 'Editar Perfil', edit_funcionario_registration_path, :class => 'navbar-link' %> |
+        <%= link_to "Sair", destroy_funcionario_session_path, method: :delete, :class => 'navbar-link btn btn-danger'  %>
+    <% elsif correntistum_signed_in? %>
+      <p class="navbar-inner text-right">
+        Olá <strong> <%= current_correntistum.nome%></strong>!
+        <%= link_to "Sair", destroy_correntistum_session_path, method: :delete, :class => 'navbar-link btn btn-danger'  %>
+    <% end %>
+
+
+  <%= yield %>
+</div>
+</body>
+</html>

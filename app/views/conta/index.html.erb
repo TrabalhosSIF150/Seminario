@@ -1,0 +1,104 @@
+<h1 class="text-center">Todas as Conta</h1>
+
+<p>
+  <%= link_to 'Nova Conta', new_contum_path, class:"btn" %>
+
+</p>
+
+<table class="table table-hover table-condensed">
+  <thead>
+  <tr>
+    <th>Numero</th>
+    <th>Primeiro Correntista</th>
+    <th>Segundo Correntista</th>
+    <th>Terceiro Correntista</th>
+    <th>Saldo</th>
+    <th>Limite</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @conta.each do |contum| %>
+      <tr>
+        <td><%= contum.numero %></td>
+        <td><%= contum.primeiro_corr %></td>
+        <td><%= contum.segundo_corr %></td>
+        <td><%= contum.terceiro_corr %></td>
+        <td><%= contum.saldo %></td>
+        <td><%= contum.limite %></td>
+        <td><%= link_to 'Visualizar', contum, class:"btn btn-primary" %></td>
+        <td><%= link_to 'Editar', edit_contum_path(contum), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Apagar', contum, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br />
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#saque">Saque</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#deposito">Depósito</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#pagamento">Pagamentos de Contas</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#transferencia">Tranferência</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#extrato">Extrato</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#saldo">Saldo</a>
+<br><br>
+
+<div id="saque" class="collapse">
+
+  <form action="/saque">
+    Saque<br />
+    Nº Conta: <input name="conta" type="number">
+    Valor: <input name="saque" type="number">
+    <input value="Sacar" type="submit" class="btn btn-success" >
+  </form>
+</div>
+
+<br>
+<div id="deposito" class="collapse">
+  <form action="/deposito">
+    Depósito<br>
+    Nº Conta: <input name="conta" type="number"><br>
+    Valor deposito: <input name="saque" type="number">
+    <input value="Depositar" type="submit" class="btn btn-success" >
+  </form>
+</div>
+
+<br>
+<div id="pagamento" class="collapse">
+  <form action="/pagamento">
+    Pagamento<br>
+    Nº Conta: <input name="conta" type="number"><br>
+    Valor pagamento: <input name="valor" type="number">
+    <input value="Pagamento" type="submit" class="btn btn-success">
+  </form>
+</div>
+
+<br>
+<div id="transferencia" class="collapse">
+  <form action="/transferencia">
+    Transferência<br>
+    Nº Conta Origem: <input name="origem" type="number"> <br>
+    Nº Conta Destino: <input name="destino" type="number"><br>
+    Valor a Transferir: <input name="valor" type="number">
+    <input value="Transferir" type="submit" class="btn btn-success" >
+  </form>
+</div>
+<div id="extrato" class="collapse">
+  <form action="/extrato">
+    Transferência<br>
+    Nº Conta: <input name="conta" type="number"> <br>
+    Data: <input name="data" type="text" placeholder="aaaa-mm-dd">
+    <input value="enviar" type="submit" class="btn btn-success" >
+  </form>
+</div>
+<div id="saldo" class="collapse">
+  <form action="/saldo">
+    Saldo<br>
+    Nº Conta  <input name="conta" type="number"> <br>
+    <input value="saldo" type="submit" class="btn btn-success" >
+  </form>
+</div>
+

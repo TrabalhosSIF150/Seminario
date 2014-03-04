@@ -1,0 +1,63 @@
+
+
+<h1 class="text-center">Todas as Contas</h1>
+
+
+<table class="table table-hover table-condensed">
+  <thead>
+  <tr>
+    <th>Numero</th>
+    <th>Primeiro corr</th>
+    <th>Segundo corr</th>
+    <th>Terceiro corr</th>
+    <th>Saldo</th>
+    <th>Limite</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @conta.each do |contum| %>
+      <tr>
+        <td><%= contum.numero %></td>
+        <td><%= contum.primeiro_corr %></td>
+        <td><%= contum.segundo_corr %></td>
+        <td><%= contum.terceiro_corr %></td>
+        <td><%= contum.saldo %></td>
+        <td><%= contum.limite %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br />
+
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#transferencia">Tranferência</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#saldo">Saldo</a>
+<a class="btn collapse-data-btn" data-toggle="collapse" href="#extrato">Extrato</a>
+<br><br>
+
+
+<div id="transferencia" class="collapse">
+  <form action="/usu/transferencia">
+    Transferência<br>
+    Nº Conta Origem: <input name="origem" type="number"> <br>
+    Nº Conta Destino: <input name="destino" type="number"><br>
+    Valor a Transferir: <input name="valor" type="number">
+    <input value="Transferir" type="submit" class="btn btn-success" >
+  </form>
+</div>
+<div id="saldo" class="collapse">
+  <form action="/usu/saldo">
+    Saldo<br>
+    Nº Conta:  <input name="conta" type="number"> <br>
+    <input value="saldo" type="submit" class="btn btn-success" >
+  </form>
+</div>
+<div id="extrato" class="collapse">
+  <form action="/usu/extrato">
+    Extrato<br>
+    Nº Conta: <input name="conta" type="number"> <br>
+   Data: <input name="data" type="text" placeholder="aaaa-mm-dd">
+    <input value="enviar" type="submit" class="btn btn-success" >
+  </form>
+</div>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @transacao.codigo %>
+</p>
+
+<p>
+  <b>Tipo:</b>
+  <%= @transacao.tipo %>
+</p>
+
+<p>
+  <b>Nro conta:</b>
+  <%= @transacao.nro_conta %>
+</p>
+
+<p>
+  <b>Nro conta transf:</b>
+  <%= @transacao.nro_conta_transf %>
+</p>
+
+<p>
+  <b>Valor:</b>
+  <%= @transacao.valor %>
+</p>
+
+<p>
+  <b>Data:</b>
+  <%= @transacao.data %>
+</p>
+
+
+<%= link_to 'Editar', edit_transacao_path(@transacao), class:"btn btn-warning" %> |
+<%= link_to 'Voltar', transacaos_path, class:"btn btn-inverse" %>

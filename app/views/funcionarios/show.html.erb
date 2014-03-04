@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @funcionario.codigo %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @funcionario.nome %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @funcionario.email %>
+</p>
+
+<p>
+  <b>Funcao:</b>
+  <%= @funcionario.funcao %>
+</p>
+
+
+<%= link_to 'Editar', edit_funcionario_path(@funcionario), class:"btn btn-warning" %> |
+<%= link_to 'Voltar', funcionarios_path, class:"btn btn-inverse" %>

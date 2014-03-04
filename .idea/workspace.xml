@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4940ad29-c873-40df-8f14-39464d764f4e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Seminario.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/2a8ab2408393e1e004e5c44877d43570ab66eb85/conta.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/2a8ab2408393e1e004e5c44877d43570ab66eb85/correntista.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/2a8ab2408393e1e004e5c44877d43570ab66eb85/funcionarios.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/2a8ab2408393e1e004e5c44877d43570ab66eb85/scaffolds.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DAB/BC0/sprockets%2F05307666b626ddfa9efc97cd72e36bbf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/D30/sprockets%2F0549b2c9ccfd57ca5a09534e0470d774" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DEE/E60/sprockets%2F06f33bbb5ccc1b1cd32f3d88c5119bee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CAE/CA0/sprockets%2F071513d26e771437c93a924a5db5dd74" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E3B/080/sprockets%2F09e2a090befacdae0db10cafb1893a0a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3F/DB0/sprockets%2F0fb6623f3d7c41b783a7f28c2952ca6c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E19/2A0/sprockets%2F10fcfbe6ebae11a40c8eac41939a1b9a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C85/4B0/sprockets%2F12359d65c6460982f1178bd5e4e671b0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D61/A10/sprockets%2F1262bfc0c3c95b16641dc6eda5119a6f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB4/DE0/sprockets%2F12b9525fdd64ac7ab0272c0fa02f0ebd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D8F/0E0/sprockets%2F15b6031a4cdd72bdb2be443b835dd68d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD5/2C0/sprockets%2F166c056119ebdfb8b7104c97b424b423" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF4/140/sprockets%2F22a3157d204c1f8e417a25f01a2dbe45" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D45/DD0/sprockets%2F27b8ad751a1981f366bb15ebd9e4f536" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CEC/490/sprockets%2F2a62ebb9df0b312212c303b25914d3a4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE0/CC0/sprockets%2F2b38c3fb549036de5c4666637a0c80c6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C81/9C0/sprockets%2F2ed4324e4b7807463566b321b949fa43" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DC1/9F0/sprockets%2F33ba450afab8e9e8f00a349bffa1e352" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D2F/C70/sprockets%2F41367f2677d221b178d81afcba046aaa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CBB/7E0/sprockets%2F45632bafc9c2f97177001886439b9da5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D43/A70/sprockets%2F4683f51d3c34df67d01e850eeb7344de" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D21/990/sprockets%2F4b9e5c7d9169af4a14b4d787973cf620" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D95/BC0/sprockets%2F4ea33e825e6e38bd22dccab488a0255b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C80/840/sprockets%2F562c2d168da585f80579347d10790a0a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9A/5F0/sprockets%2F56516268ab3ecdc47da8fb093c43aaa9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD2/4F0/sprockets%2F59dc2cfab3611838499152bd1da23510" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DC4/AA0/sprockets%2F5fd7a66e847fe7950863e859cadefdd6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/3E0/sprockets%2F6654975eaa53a225d976278fcb6baa00" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C59/EB0/sprockets%2F68033473d69756a16e19af7b05d19930" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E56/BF0/sprockets%2F69c30aae37c9f6cba8b8cda2acfd03f3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C4E/080/sprockets%2F6a4a1262320ff78db2a8657670360729" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0B/BB0/sprockets%2F721571efe48158ee12de226d941ca03e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDC/8E0/sprockets%2F74875c719b51e0c0246290fc3a8b47ca" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0B/D30/sprockets%2F751a71e0316e4c56bc060cb82f299e9a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D56/140/sprockets%2F79f9b5f6149bdaf8e0c12e6456758dc5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF2/010/sprockets%2F7be9086c960bb4384c9d23a52e489f29" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C53/250/sprockets%2F7e4172b5492106185d3bf62936c55b82" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DCA/7F0/sprockets%2F8bcab4f1bfd77f0c4812b7dd7c1d4481" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9F/750/sprockets%2F8bd1df8672a8f9fbd3d01683fb027d0a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0E/F80/sprockets%2F8c2b061e379a23e7c4d207adcf992462" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C9F/560/sprockets%2F8e5a9738e9bc15478e026d98335454f9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C6E/410/sprockets%2F9069469d993199438660b635afd2ac78" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/BA0/sprockets%2F9446db420f5d00437db0cfec82c39982" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CC6/5E0/sprockets%2F95cac95370996c9646595faf4bb84203" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4B/570/sprockets%2F9cfb9b1942555b59d2aa7b8b2708f90f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD4/1F0/sprockets%2Fa939eb180bfc7cdf01848e2745cbdfe3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5E/4D0/sprockets%2Faa61726715c46ea17a59c216bcadaa29" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D21/140/sprockets%2Fac80b21093452f4b1ccc2220ada88b63" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D80/5B0/sprockets%2Fb009cc32ee628d995db599b7befc1765" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E1C/260/sprockets%2Fb0a7ecee6af5ba7c23cd4fe9340120cd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C5C/9F0/sprockets%2Fb12f275e53f08770b5810f7388a28748" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CCD/A70/sprockets%2Fbad1c05050e38932e21564cff46162b3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD7/6F0/sprockets%2Fbd3936370d0f952ada5774e2230046ed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDB/950/sprockets%2Fbd8f154ebac4acbe27e85ff783c63792" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DC9/EA0/sprockets%2Fbd91f7cca5551254cdb75ca318be44ee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DD1/280/sprockets%2Fc435aacc7b80fe1c75e8fa84702c7dc8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D71/690/sprockets%2Fc91598133ab5904934cd1dc7fca4fa7d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D46/D10/sprockets%2Fcf01b56308d8c999a71f65b0ed91ca38" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CB8/1B0/sprockets%2Fd42159b18999a2781fab5442b81f493a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D2D/D50/sprockets%2Fd585a06e2ee6203ccb04c8b84150d14d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF0/DA0/sprockets%2Fd7d5b37686831d37c4dd75e645f5e016" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/E25/4C0/sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/C85/260/sprockets%2Fe2152772850879b35ab660d9edb10199" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DA0/170/sprockets%2Fe683db6616db7c2629e7c63ade1ba61e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE3/130/sprockets%2Fe7a3df316cda79128b49213a85f27095" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D7C/3F0/sprockets%2Fef17b04e9b36f936cdf853e12c517fc8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/DA5/FB0/sprockets%2Ff644fd75cbead0e58c847aa16546e2a8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE7/5A0/sprockets%2Ffc187aee64323fa971aec84932470636" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D33/8D0/sprockets%2Ffc90a1f4a8523d87bbc691321c903ea1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/620/sprockets%2Ffdcbb964771a2f78d281de099934ac72" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/sass/2a8ab2408393e1e004e5c44877d43570ab66eb85/transacaos.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131210223445_create_conta.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131210223601_create_correntista.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131210223731_create_funcionarios.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131210224052_create_transacaos.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131211221855_add_devise_to_funcionarios.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131211221940_add_devise_to_correntista.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/correntista/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/funcionarios/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/transacaos/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/performance/browsing_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/conta.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/conta.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/conta_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/conta_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/conta_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/conta_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/contacriar_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/contum.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/contum_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/correntista.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/correntista.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/correntista_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/correntista_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/correntista_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/correntista_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/correntistum.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/correntistum_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/correntista/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/funcionarios/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/transacaos/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/extrato.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/extrato.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/funcionario.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/funcionario_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/funcionarios.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/funcionarios.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/funcionarios_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/funcionarios_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/funcionarios_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/funcionarios_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/correntista/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/funcionarios/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/transacaos/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/correntista/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/funcionarios/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/transacaos/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/saldo.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/saldo.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/secret_token.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conta/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contacriar/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/correntista/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/funcionarios/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/transacaos/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/transacao.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/transacao_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/transacaos.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/transacaos.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/transacaos_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/transacaos_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/transacaos_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/transacaos_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+    </list>
+    <ignored path="Seminario.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="4940ad29-c873-40df-8f14-39464d764f4e" time="1393957347808" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Seminario" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="24" />
+    <option name="width" value="1364" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seminario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seminario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seminario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seminario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seminario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4940ad29-c873-40df-8f14-39464d764f4e" name="Default" comment="" />
+      <created>1393956378701</created>
+      <updated>1393956378701</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="24" width="1364" height="743" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2575988" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homebankin  em rails" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Homebankin  em rails" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+</project>
+

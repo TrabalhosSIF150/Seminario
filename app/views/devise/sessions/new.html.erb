@@ -1,0 +1,45 @@
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+    <%if resource_name ==:correntistum%>
+    <h2 class="text-center">Logar como Correntista</h2>
+    <%elsif resource_name==:funcionario%>
+    <h2 class="text-center">Logar como Funcionario</h2>
+    <% end %>
+
+    <div class="navbar-form pull-left">
+      <%=link_to "Cadastrar Funcionario","/funcionarios/sign_up", class:"btn btn-info" %>
+      <%=link_to "Cadastrar Correntista","/correntista/sign_up", class:"btn btn-info" %>
+    </div>
+
+    <br /><br /><br />
+
+    <div>
+        <%= f.label :email %>
+        <%= f.email_field :email, :autofocus => true%>
+    </div>
+
+    <br />
+
+    <div>
+        <%= f.label :password,"Senha"%>
+        <%= f.password_field :password%>
+    </div>
+
+    <br />
+
+    <% if devise_mapping.rememberable? -%>
+        <div>
+          <%= f.check_box :remember_me%>
+          <%= f.label :remember_me%>
+        </div>
+    <% end -%>
+
+    <br />
+
+    <div>
+      <%= f.submit "Login", class:"btn btn-success" %>
+    </div>
+    <% end %>
+
+<br />
+
+<%= render "devise/shared/links" %>

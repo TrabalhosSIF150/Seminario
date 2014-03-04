@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>CPF:</b>
+  <%= @correntistum.cpf %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @correntistum.nome %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%= @correntistum.endereco %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @correntistum.email %>
+</p>
+
+<p>
+  <b>Senha:</b>
+  <%= @correntistum.senha %>
+</p>
+
+
+<%= link_to 'Editar', edit_correntistum_path(@correntistum), class:"btn btn-warning" %> |
+<%= link_to 'Voltar', correntista_path, class:"btn btn-inverse" %>
